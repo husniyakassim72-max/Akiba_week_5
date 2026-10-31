@@ -1,0 +1,9 @@
+class student:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def __str__(self):
+        return f"my name is {self.name} and i am {self.age} years old"
+s1=student("hana",20)
+print(s1)        
+        
